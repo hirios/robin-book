@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Georama');
+
+
+div#loading {
+    width: 500px;
+    height: 350px;
+    display: none;
+    background-image: url("https://olaargentina.com/wp-content/uploads/2019/11/loading-gif-transparent-10.gif");
+    background-repeat: no-repeat;
+    cursor: wait;
+    }
+
+/* ROBIN BOOK NAME */
+p {
+  font-family: Georama;
+  font-weight: bold;
+  font-size: 18;
+  margin: 8px 0;
+}    
+
+input:not(#nao) {
+  width: 400;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:focus:not(#nao) {
+  background-color: #F3F3F3;
+}
+
+.button {
+  background: greenyellow;
+  border: none;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Georama';
+  font-size: 22;
+  transition: box-shadow 200ms ease-in-out, color 300ms ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 40px 40px goldenrod inset;
+  }
+
+
+  /* Robin-Book name */
+@media (max-width: 1000px) {
+  p {
+    color: black;
+    font-size: 50px;
+  }
+
+
+  /* TAMANHOS DOS INPUTS */
+  input:not(#nao) {
+    width: 920px;
+    height: 130px;
+    font-size: 30px;
+  }
+
+
+  form {
+    padding: 2px 1em 0 1em;
+  }
+
+
+  .button{
+    font-size: 60px;
+    padding: 25px 80px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+}

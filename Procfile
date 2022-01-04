@@ -1,0 +1,1 @@
+web: wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin install_dir=~/calibre-bin isolated=y && alias ebook-convert='/app/calibre-bin/calibre/ebook-convert' && gunicorn main_server:app
