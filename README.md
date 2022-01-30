@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-In the `config.txt` file you must enter your email and password (*application type password*), host (optional) and port (optional).
+In the `config.txt` file you must enter your email and [password](https://umd.service-now.com/itsupport?id=kb_article&article=KB0015112&sys_kb_id=76433076dbdf8c904cb035623996194b&spa=1) (*application type password*), host (optional) and port (optional).
 
 ```
 python main_server.py
